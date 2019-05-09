@@ -7,7 +7,11 @@ def describe "#division" do
  
 end
 
-def assign_variable(value)
+def describe '#assign_variable' do
+    it 'takes an argument of a persons name and assign it to a variable name' do
+      value = "Bob"
+
+      expect(assign_vassign_variable(value)
   
 end
 
